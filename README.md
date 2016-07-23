@@ -14,9 +14,9 @@ Then simply open the generated `resume.pdf` file with your favorite PDF reader.
 I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat if you *really* want to.
 
 ## Authors
-Andrew M Rogers
-Frits Wenneker (original template author from [howtotex.com](http://www.howtotex.com))
-Vel (modifications)
+* Andrew M Rogers
+* Frits Wenneker (original template author from [howtotex.com](http://www.howtotex.com))
+* Vel (modifications)
 
 ## License
 [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/ "Check it out")
