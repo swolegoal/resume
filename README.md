@@ -9,7 +9,9 @@ If you have LaTeX installed, all you have to run is:
 	`pdflatex resume.tex`
 
 ## Enjoying
-Then simply open the generated `resume.pdf` file with your favorite PDF reader.  I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat if you *really* want to.
+Then simply open the generated `resume.pdf` file with your favorite PDF reader.  
+
+I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat if you *really* want to.
 
 ## Authors
 Andrew M Rogers
