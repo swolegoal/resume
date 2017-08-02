@@ -1,15 +1,34 @@
 # My Current Resume
 
-## What is this document?
-This is the source code to my personal work resume.  It is written using the legendary typesetting engine, [LaTeX](https://en.wikipedia.org/wiki/LaTeX "Wikepedia page").  I am using a wonderful template from [LaTeXTemplates.com](http://latextemplates.com).
+## What is this?
+This repository contains the source code to the PDF versions of my personal work
+resumes.  They are written in the TeX markup language for the legendary
+typesetting engine, [LaTeX](https://en.wikipedia.org/wiki/LaTeX
+"Wikipedia page"). I am using a wonderful template from
+[LaTeXTemplates.com](http://latextemplates.com).
+
+If you do not have LaTeX installed, I have compiled PDF versions in this repo
+and upon request via email.
+
+I also have a rudimentary `.doc` and `.docx` versions I can send via email
+upon request.
+
+## Versions
+
+I am interested in applying for programming and UNIX/Linux/Mac/Windows system
+administration positions.  As such I have written two resumes, one for each type
+of position:
+- *`amr-resume-sysadmin.tex`:*
+- *`amr-resume-developer.tex`:*
+- *`amr-resume-devops.tex`:*
 
 ## Compiling
 If you have LaTeX installed, all you have to run is:
 
-	pdflatex resume.tex
+	pdflatex amr-resume-sysadmin.tex
 
 ## Enjoying
-Then simply open the generated `resume.pdf` file with your favorite PDF reader.  
+Then simply open the generated `resume.pdf` file with your favorite PDF reader.
 
 I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat if you *really* want to.
 
