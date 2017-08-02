@@ -1,0 +1,372 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This is resume was created by:
+% Andrew M. Rogers
+% https://github.com/tuxlovesyou
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original template authors:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+%\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Andrew Rogers\\ % Your name
+\small{\url{a.rog.tux@gmail.com}} \\ % Your email address
+\Sep % Some whitespace
+\textbf{GitHub} \\
+\small{\url{https://github.com/tuxlovesyou}} \\
+%\url{www.andrewssh.com} \\ % Your URL
+%(513) 659-2761 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+5520 Damascus Rd. \\ % Address 1
+Laytonsville, MD 20882 \\ % Address 2
+\Sep % Some whitespace
+\textbf{US Citizen} \\
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Andrew Rogers}%\cvemailheading{\\andrew.rog.linux@gmail.com}} % Large heading - your name
+
+\cvsubheading{Systems Administrator} % Subheading - your occupation/specialization
+
+%\cvemailheading{andrew.rog.linux@gmail.com} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{I am a passionate UNIX, Linux, and Windows expert with several years of
+	administration experience who lives for automation and security.}
+\begin{itemize}
+	\item Expert administrator with eight years of experience managing Linux, BSD,
+		Solaris, Windows and OS X workstations and servers locally and remotely.
+	\item Expert in several flavors of Linux:
+		\begin{itemize}
+			\item Red Hat Enterprise Linux, Fedora, and CentOS
+			\item Ubuntu and Debian
+			\item SUSE Linux Enterprise and openSUSE
+			\item Arch
+			\item Gentoo
+		\end{itemize}
+	\item Strong understanding of Linux security best practices.
+	\item Skilled in solving technical install, configuration, and integration problems, including
+		those involving cloud services and solutions.
+	\item Can recompile the Linux kernel with relative ease.
+	\item Great at COTS server hardware installation and upgrades, as well as performance tuning.
+\end{itemize}
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Relevant Skills}
+
+%------------------------------------------------
+
+\CVItem{Scripting Languages}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Bash, sh, Zsh    & \bluebullet Perl              & \bluebullet Python                 \\
+	\bluebullet PowerShell       & \bluebullet AppleScript       & \bluebullet Tk/Tcl                 \\
+	\bluebullet batch file       & \bluebullet Makefile
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Databases}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Amazon Aurora    & \bluebullet MySQL             & \bluebullet Amazon DynamoDB        \\
+	\bluebullet PostgreSQL       & \bluebullet SQLite            & \bluebullet Microsoft SQL Server   \\
+	\bluebullet Redis
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{SCM Deployment}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet GitHub Enterprise& \bluebullet Bitbucket         & \bluebullet Kallithea              \\
+	\bluebullet GitLab           & \bluebullet cgit
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Webservers}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Apache           & \bluebullet lighttpd          & \bluebullet Apache Tomcat          \\
+	\bluebullet nginx            & \bluebullet Microsoft IIS     & \bluebullet GlassFish              \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{File Servers}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Amazon S3        & \bluebullet NFS               & \bluebullet ISCSI                  \\
+	\bluebullet SSHFS            & \bluebullet TFTP              & \bluebullet SMB (Samba and DFS)    \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Configuration Tools}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Ansible          & \bluebullet Shell scripting  & \bluebulet PowerShell               \\
+	\bluebullet Puppet           & \bluebullet SSH/Mosh         & \bluebullet RDP                     \\
+	\bluebullet AWS Config       & \bluebullet Amazon Lambda    & \bluebullet AWS CLI                 \\
+	\bluebullet Cron             & \bluebullet Systemd and Init & \bluebullet Active Directory        \\
+\end{tabular}}
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+
+\CVItem{Cloud Providers}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Amazon AWS       & \bluebullet Microsoft Azure  & \bluebullet Google Cloud Platform   \\
+	\bluebullet Linode           & \bluebullet Digital Ocean    & \bluebullet Vultur                  \\
+	\bluebullet Rackspace
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Virtualization Technology}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Linux KVM        & \bluebullet Xen Server        & \bluebullet Hyper-V                \\
+	\bluebullet Docker           & \bluebullet Linux Namespaces  & \bluebullet VirtualBox             \\
+	\bluebullet FreeBSD Jails    & \bluebullet Bubblewrap        & \bluebullet VMware ESXi
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Security Auditing}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Nmap             & \bluebullet Nikto             & \bluebullet hashcat                \\
+	\bluebullet Ncrack           & \bluebullet Nessus            & \bluebullet THC Hydra              \\
+	\bluebullet Ophcrack         & \bluebullet RainbowCrack      & \bluebullet John the Ripper        \\
+	\bluebullet Burp Suite       & \bluebullet tcpdump           & \bluebullet Wireshark              \\
+	\bluebullet Selenium
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Security Hardening}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.3\textwidth}}
+	\bluebullet Kernel rebuilds   & \bluebullet Firewall rules    & \bluebullet Security policies      \\
+	\bluebullet Snort             & \bluebullet Tripwire          & \bluebullet Fail2ban               \\
+	\bluebullet software patching
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{September 2016 - Present, \textit{Software Engineer}, Inspire}{
+	Responsible for maintaining backend Perl code, updating site templates,
+	and writing SQL for the Inspire website.
+	\begin{itemize}
+		\item Resurrected old legacy code with modern patches.
+		\item Helped introduce new features to the site.
+		\item Deployed CircleCI continuous integration system.
+		\item Created several new health communities, integrating designer assets along the way.
+		\item Wrote experimental Python code to assist data scientist with her research.
+		\item Code reviewed my peers' Perl, SQL, and JavaScript.
+		\item Helped test and develop the company's Prove-based test suite.
+		\item Updated our in-house release tools and scripts.
+	\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{July 2015 - September 2016, \textit{Senior Systems Administrator}, Jones LLC}{
+\begin{itemize}
+	\item Maintaining Java code
+	\item Deploying and maintaining Bitbucket on Linode cloud
+	\item Writing new BASH shell scripts and utilities
+	\item Custom Arch Linux and CentOS installs:
+	\begin{itemize}
+		\item Custom Live ISO image
+		\begin{itemize}
+			\item Custom installation scripts
+		\end{itemize}
+		\item Custom Systemd units
+		\item Custom daemon scripts
+		\item Dependency management
+		\item Custom firewall rules:
+			\begin{itemize}
+				\item ufw
+				\item firewalld
+				\item iptables
+			\end{itemize}
+	\end{itemize}
+	\item pfSense installation and deployment
+	\item Managed switch administration.
+	\item Cable crimping.
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+\CVItem{September 2015 - April 2016, \textit{Head of Computer Recycling}, MSC}{Oversaw recycling desktops, laptops, switches,
+servers, SANs, consumer electronics, and more for precious metals.  Sorted components by type for refurbishing.}
+
+%------------------------------------------------
+
+\CVItem{2014 - 2015, \textit{Manager of Hobbyist Electronics}, Micro Electronics, Inc.}{
+	Merchandised and sold development boards (e.g. Raspberry Pi, Arduino, Jetson TK1,
+	BeagleBone, Teensy, etc.), soldering equipment and supplies, connectors, enclosures,
+	cleaning equipment, robot kits, and drones.
+	\begin{itemize}
+		\item Helped customers select the best development board and programming
+			language for their projects.
+	\end{itemize}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	ACCOMPLISHMENTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Organizations}
+
+%------------------------------------------------
+
+\CVItem{2016 - Present, DC Perl Mongers}{
+	Member of DC.pm who participates in group discussions and lightning talks who volunteers
+	where possible.
+	\begin{itemize}
+		\item The Perl Conference 2017 attendee
+		\begin{itemize}
+		\item Hung out with Matt S. Trout (mst), Sawyer X, and too many others to name.
+		\item Had lunch with Larry Wall!
+		\item Watched many great talks.
+		\end{itemize}
+	\end{itemize}
+} \\
+\CVItem{2016 - Present, HacDC}{
+	Active, dues-paying member of our capital's most well-recognized hackerspace
+	\begin{itemize}
+		\item Assists in maintaining the 3D printing hardware.
+		\item Works with the Vice President on managing our networking infrastructure.
+		\item Helps teach members and visitors about free software.
+		\item Is currently helping to repair the scanning electron microscope.
+		\item Donated Tannoy and JBL speakers as well as a Crown amplifier to the space to
+			allow members and guests to enjoy music while they work.
+	\end{itemize}
+} \\
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{IT Education}
+
+%------------------------------------------------
+
+\CVItem{2014 - Present, Brigham Young University-Idaho}{BS in Computer Science (on leave).} \\
+\CVItem{Present, OSCP Certification}{Studying for the OSCP examination.} \\
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{
+	C and Perl programming, dev ops, administration, security, UNIX, embedded systems, PCB design
+}
+
+%------------------------------------------------
+
+\CVItem{Personal}{
+	Saxophone, audio production, graphics design, video editing, motion graphics, vintage computing,
+	running, tree climbing, kayaking
+}
+
+%------------------------------------------------
+
+\cvemailheading{a.rog.tux@gmail.com}
+%\cvemailheading{andrew.rog.linux@gmail.com}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
