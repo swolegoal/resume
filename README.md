@@ -18,19 +18,23 @@ upon request.
 I am interested in applying for programming and UNIX/Linux/Mac/Windows system
 administration positions.  As such I have written two resumes, one for each type
 of position:
-- *`amr-resume-sysadmin.tex`:*
-- *`amr-resume-developer.tex`:*
-- *`amr-resume-devops.tex`:*
+- *`amr-resume-sysadmin.tex`:* for system administration positions
+- *`amr-resume-developer.tex`:* for software development positions
+- *`amr-resume-devops.tex`:* for DevOps positions.
 
 ## Compiling
 If you have LaTeX installed, all you have to run is:
 
 	pdflatex amr-resume-sysadmin.tex
 
-## Enjoying
-Then simply open the generated `resume.pdf` file with your favorite PDF reader.
+Replace `sysadmin` with the desired version of the resume you want to compile.
 
-I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat if you *really* want to.
+## Enjoying
+Then simply open the generated `amr-resume-sysadmin.pdf` file with your
+favorite PDF reader.
+
+I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat
+if you *really* want to.
 
 ## Authors
 * Andrew M Rogers (*myself*)
