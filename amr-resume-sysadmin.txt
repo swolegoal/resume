@@ -1,0 +1,155 @@
+    Andrew   Rogers  . Andrew Rogers
+a.rog.tux@gmail.com  .
+                     . Systems Administrator
+              GitHub .
+https://github.com/  .
+        tuxlovesyou  . About   Me    I am   a passionate   UNIX,   Linux,  and   Windows    expert with
+                     . several  years  of administration   experience   who   lives for automation  and
+             Address . security.
+  5520 Damascus Rd.  .
+    Laytonsville, MD .     * Expert   administrator  with  eight years of experience   managing   Linux,
+               20882 .       BSD,   Solaris, Windows    and   OS  X  workstations   and  servers locally
+                     .       and   remotely.
+          US Citizen .     * Expert   in several flavors of Linux:
+                     .          -- Red  Hat  Enterprise  Linux,  Fedora,   and  CentOS
+                     .          -- Ubuntu   and  Debian
+                     .          -- SUSE   Linux  Enterprise  and  openSUSE
+                     .          -- Arch
+                     .          -- Gentoo
+                     .     * Strong   understanding    of security  best practices.
+                     .     * Skilled  in  solving technical   install, configuration,   and  integration
+                     .       problems,    including those  involving   cloud  services and  solutions.
+                     .     * Can   recompile   the Linux  kernel  with  relative ease.
+                     .     * Great   at COTS   server  hardware    installation  and  upgrades,  as well
+                     .       as performance     tuning.
+                     . Relevant        Skills
+                     . Scripting   Languages
+                     .   * Bash,  sh, Zsh         *  Perl                    *  Python
+                     .   * PowerShell             *  AppleScript             *  Tk/Tcl
+                     .   * batch  file            *  Makefile
+                     .
+                     . Databases
+                     .   * Amazon    Aurora       *  MySQL                   *  Amazon   DynamoDB
+                     .   * PostgreSQL             *  SQLite                  *  Microsoft  SQL Server
+                     .   * Redis
+                     . SCM   Deployment
+                     .   * GitHub   Enterprise    *  Bitbucket               *  Kallithea
+                     .   * GitLab                 *  cgit
+                     . Webservers
+                     .   * Apache                 *  lighttpd                *  Apache   Tomcat
+                     .   * nginx                  *  Microsoft  IIS          *  GlassFish
+                     .
+                     . File Servers
+                     .   * Amazon    S3           *  NFS                     *  ISCSI
+                     .   * SSHFS                  *  TFTP                    *  SMB   (Samba  and  DFS)
+                     . Configuration     Tools
+                     .   * Ansible                *  Shell scripting         *  PowerShell
+                     .   * Puppet                 *  SSH/Mosh                *  RDP
+                     .   * AWS   Config           *  Amazon    Lambda        *  AWS   CLI
+                     .   * Cron                   *  Systemd   and   Init    *  Active Directory
+                     .
+                     .   Cloud  Providers
+                     .    *  Amazon    AWS           *  Microsoft  Azure       *  Google  Cloud   Platform
+                     .    *  Linode                  *  Digital Ocean          *  Vultur
+                     .    *  Rackspace
+                     .
+                     .   Virtualization   Technology
+                     .    *  Linux  KVM              *  Xen  Server            *  Hyper-V
+                     .    *  Docker                  *  Linux Namespaces       *  VirtualBox
+                     .
+                     .    *  FreeBSD    Jails        *  Bubblewrap             *  VMware    ESXi
+                     .
+                     .
+                     .   Security  Auditing
+                     .    *  Nmap                    *  Nikto                  *  hashcat
+                     .    *  Ncrack                  *  Nessus                 *  THC  Hydra
+                     .    *  Ophcrack                *  RainbowCrack           *  John  the Ripper
+                     .    *  Burp  Suite             *  tcpdump                *  Wireshark
+                     .    *  Selenium
+                     .   Security  Hardening
+                     .    *  Kernel  rebuilds        *  Firewall  rules        *  Security  policies
+                     .    *  Snort                   *  Tripwire               *  Fail2ban
+                     .    *  software   patching
+                     .
+                     .   Experience
+                     .   September     2016   - Present,  Software    Engineer,   Inspire
+                     .   Responsible   for maintaining    backend   Perl  code, updating   site templates,
+                     .   and  writing  SQL  for  the Inspire website.
+                     .      *  Resurrected    old legacy  code  with  modern    patches.
+                     .      *  Helped   introduce   new   features  to the site.
+                     .      *  Deployed    CircleCI  continuous   integration  system.
+                     .      *  Created   several  new  health communities,    integrating  designer assets
+                     .         along  the  way.
+                     .      *  Wrote   experimental     Python   code  to  assist data scientist  with her
+                     .         research.
+                     .      *  Code   reviewed    my  peers' Perl, SQL,  and  JavaScript.
+                     .      *  Helped   test and   develop  the company's    Prove-based   test suite.
+                     .      *  Updated    our  in-house  release  tools and  scripts.
+                     .   July 2015   - September    2016,   Senior  Systems   Administrator,    Jones LLC
+                     .      *  Maintained    Java  code  written  by  contractor.
+                     .      *  Deployed    and   managed   Bitbucket   on  Linode  cloud.
+                     .      *  Wrote   new   BASH   shell scripts and  utilities.
+                     .      *  Custom    Arch  Linux  and  CentOS    installs:
+                     .            -- Made   custom   Live  ISO  images  for home   network   appliances.
+                     .                 *  Wrote   custom   installation scripts.
+                     .            -- Wrote   custom   Systemd   units.
+                     .            -- Wrote   custom   daemon    scripts.
+                     .            -- Managed     dependencies.
+                     .            -- Configured    custom   firewall rules:
+                     .                 *  ufw
+                     .                 *  firewalld
+                     .                 *  iptables
+                     .      *  Installed  and   deployed  pfSense.
+                     .      *  Managed     switch  administration.
+                     .      *  Crimped    network   cabling.
+                     .
+                     .
+                     .   September      2015   - April  2016,  Head    of Computer    Recycling,   MSC
+                     .   Oversaw     recycling  desktops,   laptops,  switches,  servers,  SANs,   consumer
+                     .   electronics,   and  more  for precious  metals.   Sorted  components    by  type for
+                     .   refurbishing.
+                     .
+                     .   2014   - 2015,   Manager     of Hobbyist   Electronics,   Micro   Electronics,  Inc.
+                     .   Merchandised      and  sold  development    boards   (e.g. Raspberry   Pi, Arduino,
+                     .   Jetson   TK1,  BeagleBone,    Teensy,  etc.), soldering  equipment    and  supplies,
+                     .
+                     .   connectors,    enclosures,  cleaning   equipment,    robot  kits, and drones.
+                     .       *  Helped    customers   select the  best development     board  and  program-
+                     .          ming   language   for  their projects.
+                     .
+                     .   Organizations
+                     .   2016    - Present,  DC   Perl Mongers
+                     .   Member      of DC.pm    who   participates  in  group  discussions   and   lightning
+                     .   talks  who   volunteers   where   possible.
+                     .       *  The   Perl Conference    2017  attendee
+                     .             -- Hung    out with  Matt   S. Trout  (mst),  Sawyer    X, and  too many
+                     .                others  to name.
+                     .             -- Had   lunch  with  Larry  Wall!
+                     .             -- Watched    many   great  talks.
+                     .   2016    - Present,  HacDC
+                     .   Active,   dues-paying    member    of our  capital's most  well-recognized    hack-
+                     .   erspace
+                     .       *  Assists  in maintaining    the 3D  printing  hardware.
+                     .       *  Works    with the  Vice President   on  managing    our  networking   infras-
+                     .          tructure.
+                     .       *  Helps   teach  members    and  visitors about   free software.
+                     .       *  Is currently  helping   to repair  the scanning   electron  microscope.
+                     .       *  Donated    Tannoy    and  JBL  speakers   as well as  a Crown   amplifier  to
+                     .          the  space   to allow  members    and   guests  to enjoy   music  while they
+                     .          work.
+                     .
+                     .   IT   Education
+                     .   2014    - Present,  Brigham     Young   University-Idaho
+                     .   BS  in Computer     Science   (on leave).
+                     .   Present,    OSCP   Certification
+                     .   Studying    for the OSCP    examination.
+                     .
+                     .   Interests
+                     .   Professional
+                     .   C  and  Perl programming,     dev  ops, administration,    security, UNIX,  embed-
+                     .   ded   systems,   PCB  design
+                     .   Personal
+                     .   Saxophone,     audio  production,   graphics  design,  video  editing, motion  graph-
+                     .   ics, vintage   computing,    running,  tree  climbing,  kayaking
+                     .   a.rog.tux@gmail.com
+
