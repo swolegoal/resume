@@ -16,11 +16,14 @@ upon request.
 ## Versions
 
 I am interested in applying for programming and UNIX/Linux/Mac/Windows system
-administration positions.  As such I have written two resumes, one for each type
-of position:
+administration positions.  As such I have written multiple resumes, one for each
+type of position:
 - *`amr-resume-sysadmin.tex`:* for system administration positions
 - *`amr-resume-developer.tex`:* for software development positions
 - *`amr-resume-devops.tex`:* for DevOps positions.
+
+The developer and DevOps resumes are still in progress.  They will be pushed to
+this repository upon their completion.
 
 ## Compiling
 If you have LaTeX installed, all you have to run is:
