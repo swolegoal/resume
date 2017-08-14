@@ -13,30 +13,15 @@ and upon request via email.
 I also have a rudimentary `.doc` and `.docx` versions I can send via email
 upon request.
 
-## Versions
-
-I am interested in applying for programming and UNIX/Linux/Mac/Windows system
-administration positions.  As such I have written multiple resumes, one for each
-type of position:
-- *`amr-resume-sysadmin.tex`:* for system administration positions
-- *`amr-resume-developer.tex`:* for software development positions
-- *`amr-resume-devops.tex`:* for DevOps positions.
-
-The developer and DevOps resumes are still in progress.  They will be pushed to
-this repository upon their completion.
-
 ## Compiling
 If you have LaTeX installed, all you have to run is:
 
 	pdflatex amr-resume-sysadmin.tex
 
-Replace `sysadmin` with the desired version of the resume you want to compile.
-
 ## Enjoying
-Then simply open the generated `amr-resume-sysadmin.pdf` file with your
-favorite PDF reader.
-
-I like [MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat
+To view the generated PDF, simply open the generated `amr-resume-sysadmin.pdf`
+file in your favorite PDF reader.  I like
+[MuPDF](http://mupdf.com/ "MuPDF home page"), but you can use Acrobat
 if you *really* want to.
 
 ## Authors
