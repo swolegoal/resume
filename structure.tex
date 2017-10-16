@@ -23,13 +23,16 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry} % Modify margins
+\usepackage[a4paper, hmargin=25mm, vmargin=22mm, top=20mm]{geometry} % Use A4 paper and set margins
+%\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry} % Modify margins
 
 \usepackage{graphicx} % Required for figures
 
 \usepackage{flowfram} % Required for the multi-column layout
 
 \usepackage{url} % URLs
+
+\usepackage{hyperref} % Colors for links, text and headings
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for custom colours
 
@@ -40,26 +43,26 @@
 
 \setlength{\columnsep}{\baselineskip} % Set the spacing between columns
 
-% Define the left frame (sidebar)
-\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
-\newlength{\LeftMainSep}
-\setlength{\LeftMainSep}{0.2\textwidth}
-\addtolength{\LeftMainSep}{1\columnsep}
- 
-% Small static frame for the vertical line
-\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
- 
-% Content of the static frame with the vertical line
-\begin{staticcontents}{1}
-\hfill
-\tikz{\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0](0,0) -- (0,\textheight);}
-\hfill\mbox{}
-\end{staticcontents}
- 
-% Define the right frame (main body)
-\addtolength{\LeftMainSep}{1.5pt}
-\addtolength{\LeftMainSep}{1\columnsep}
-\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+%% Define the left frame (sidebar)
+%\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+%\newlength{\LeftMainSep}
+%\setlength{\LeftMainSep}{0.2\textwidth}
+%\addtolength{\LeftMainSep}{1\columnsep}
+% 
+%% Small static frame for the vertical line
+%\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
+% 
+%% Content of the static frame with the vertical line
+%\begin{staticcontents}{1}
+%\hfill
+%\tikz{\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0](0,0) -- (0,\textheight);}
+%\hfill\mbox{}
+%\end{staticcontents}
+% 
+%% Define the right frame (main body)
+%\addtolength{\LeftMainSep}{1.5pt}
+%\addtolength{\LeftMainSep}{1\columnsep}
+%\newflowframe{1\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
 
 \pagestyle{empty} % Disable all page numbering
 
